@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+<head>
+  <title>MrT - Micro Test for Javascript, Fool</title>
+</head>
+<body>
+  <h1>MrT - Micro Test for Javascript, Fool</h1>
+  <h2>Source:</h2>
+  <pre style="background:#666;color:#fff;margin:10px;padding:10px;font-size:1.2em;">
+    &lt;script src="MrT.js">&lt;/script>
+    &lt;script>
+      MrT('test pass', function(t){ t.pass(); });
+      MrT('test fail', function(t){ t.fail(); });
+    &lt;/script>
+  </pre>
+  <h2>Result:</h2>
+  <script src="MrT.js"></script>
+  <script>
+    MrT('test pass', function(t){ t.pass(); });
+    MrT('test fail', function(t){ t.fail(); });
+  </script>
+</body>
+</html>
