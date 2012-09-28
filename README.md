@@ -1,6 +1,6 @@
 # MrT Javascript Mirco Testing Harness, fool.
 
-MrT is a micro (~25 lines of code) async-compatible browser side testing framework.
+MrT is a micro (~<del>25</del>15 lines of code) async-compatible browser side testing framework.
 
 It is ultra-simple and and works like this:
 
