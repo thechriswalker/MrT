@@ -6,14 +6,13 @@
 <body>
   <h1>MrT - Micro Test for Javascript, Fool</h1>
   <h2>Source:</h2>
-  <pre style="background:#666;color:#fff;margin:10px;padding:10px;font-size:1.2em;">
-    &lt;script src="MrT.js">&lt;/script>
-    &lt;script>
-      MrT('test pass', function(t){ t.pass(); });
-      MrT('test fail', function(t){ t.fail(); });
-    &lt;/script>
-  </pre>
-  <h2>Result:</h2>
+  <pre style="background:#666;color:#fff;margin:10px;padding:10px;font-size:1.2em;">&lt;script src="MrT.js">&lt;/script>
+&lt;script>
+  MrT('test pass', function(t){ t.pass(); });
+  MrT('test fail', function(t){ t.fail(); });
+&lt;/script></pre>
+  <h2>Result: <small>yes it should fail 1 and pass 1</small></h2>
+  <p><a href="#show_passes">show passes</a> <a href="#">hide passes</a></p>
   <script src="MrT.js"></script>
   <script>
     MrT('test pass', function(t){ t.pass(); });
